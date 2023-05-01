@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hoteis no mundo inteiro</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/londonmm" rel="stylesheet">
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../componentes/css/estilos.css">
+</head>
+<body>
+
+    <form id="form_cad" name="form_cad" class="form_cad" method="post" action="valida_cad">
+
+        <div class="title-cad"> 
+            <h1>CADASTRO</h1></div>
+
+            <div class="cadastro">
+
+                <div>
+
+                    <div><label>Nome</label></div>	
+
+                    <div><input type="text" id="nome_cad" name="nome_cad" required autofocus></div>
+
+                    <div><label>Email</label></div>	
+
+                    <div><input type="text" id="email_cad" name="email_cad" required autofocus></div>
+
+                    <div><label>Senha</label></div>
+
+                    <div><input type="password" id="senha_cad" name="senha_cad" required></div>				
+
+                    <div><input type="submit" id="entrar" name="entrar" value="Entrar"></div>
+
+                </div>
+
+            </div>
+
+    </form>
+</body>
+
+</html>
